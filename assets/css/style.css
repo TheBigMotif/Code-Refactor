@@ -3,10 +3,13 @@
     padding: 0;
     margin: 0;
 }
+<!--This is our canvas size and properties-->
+
 
 body {
     background-color: #d9dcd6;
 }
+<!--Here we define our website background color-->
 
 .header {
     padding: 20px;
@@ -14,16 +17,17 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+<!--These are our header properties-->
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+<!--How we are going to display our main header-->
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+<!--Our main header h1 will show up white-->
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,7 +35,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+<!--Properties of our header, font, size, margin, padding and orientation-->
 .header div ul {
     list-style-type: none;
 }
@@ -194,7 +198,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+<!--Properties of what is shown on the bottom or our page-->
 .footer h2 {
     font-size: 20px;
 }
